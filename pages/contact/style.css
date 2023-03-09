@@ -96,3 +96,12 @@ tr:nth-child(even) {
     padding: 2.4rem;
   }
 }
+
+@media (min-width: 1024px) {
+  main {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+
+    max-width: 120rem;
+  }
+}

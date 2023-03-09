@@ -12,6 +12,10 @@
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
@@ -46,11 +50,6 @@
 body {
   font-size: 1.6rem;
   text-align: center;
-
-  height: 100vh;
-
-  display: grid;
-  grid-template-areas: "header" "main" "footer";
 }
 
 body,
