@@ -28,6 +28,7 @@ Por fim, há uma página de _Contato_ com um formulário para mandar uma mensage
 
 - Fundamentos do HTML;
 - Fundamentos de CSS;
+- Validação de Formulário e Envio para Whatsapp.
 
 <br>
 
@@ -36,7 +37,8 @@ Por fim, há uma página de _Contato_ com um formulário para mandar uma mensage
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [HTML](https://www.w3schools.com/html/)
-- [CSS](https://www.w3schools.com/css/default.asp)
+- [CSS](https://www.w3schools.com/css/)
+- [CSS](https://www.w3schools.com/js/)
 - [Figma](https://www.figma.com/design/)
 
 <br>
