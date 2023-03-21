@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="../../styles/theme.css" />
     <link rel="stylesheet" href="../../styles/layout.css" />
     <link rel="stylesheet" href="./style.css" />
+
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <header class="flex">
@@ -62,13 +64,19 @@
         </div>
         <div class="input-wrapper flex">
           <label for="phone">Telefone</label>
-          <input type="tel" id="phone" />
+          <input
+            type="tel"
+            id="phone"
+            required
+            pattern="^\(\d{2}\) \d{5}-\d{4}$"
+            maxlength="15"
+          />
         </div>
         <div class="input-wrapper flex">
           <label for="message">Mensagem</label>
           <textarea id="message" cols="30" rows="10" required></textarea>
         </div>
-        <button>Enviar</button>
+        <button onclick="sendForWhatsApp()">Enviar</button>
       </form>
 
       <div class="wrapper flex">

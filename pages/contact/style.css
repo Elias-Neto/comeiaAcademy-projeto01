@@ -41,6 +41,10 @@ input:invalid {
   height: 3.2rem;
 }
 
+input:invalid {
+  border-color: rgb(202, 40, 75);
+}
+
 button {
   background-color: var(--GREEN-600);
   border-radius: 0.5rem;
